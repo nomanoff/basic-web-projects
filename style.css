@@ -188,6 +188,9 @@ ul{
 
     .title{
         font-size: 20px;
+        padding: 2px 10px;
+        border: 2px solid #F1FAEE;
+        text-transform: uppercase;
     }
 
     .menu{
