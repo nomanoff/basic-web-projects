@@ -124,10 +124,16 @@ ul{
 
 
 
-.responsivness{
-    background-color: #E63946;
+.responsive{
+    background-color: #259e5d;
     padding: 1px 15px;
     transform: translateX(1rem);
+}
+
+.not-responsive{
+    background-color: #E63946;
+    padding: 1px 15px;
+    transform: translateX(1rem); 
 }
 
 .project-title{
