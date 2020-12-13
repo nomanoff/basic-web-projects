@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>HTML/CSS</title>
 </head>
@@ -12,16 +14,16 @@
         <header class="theme-nav">
             <h1 class="title">HTML and CSS projects</h1>
             <ul class="menu">
-                <li>
-                    <a href="#">HTML/CSS</a>
+                <li class="list-item item-1">
+                    <a class="page-link current-link" href="#">HTML/CSS</a>
                 </li>
 
-                <li>
-                    <a href="#">JAVASCRIPT</a>
+                <li class="list-item item-2">
+                    <a class="page-link" href="#">JAVASCRIPT</a>
                 </li>
 
-                <li>
-                    <a href="#">REACT</a>
+                <li class="list-item item-3">
+                    <a class="page-link" href="#">REACT</a>
                 </li>
             </ul>
         </header>
@@ -29,8 +31,66 @@
         <div class="card-wrapper">
 
             <div id="project-1" class="card">
+                    <img class="demo-img" src="img/my-github.png" alt="">
+               
+
+                <div class="card-info">
+                    <div class="stack-responsivness">
+                        <h3>HTML CSS</h3>
+                        <div class="responsivness">
+                            <h6>RESPONSIVE</h6>
+                        </div>
+                    </div>
+
+                    <h2 class="project-title">Simple Landing Page</h2>
+
+                    <a target="_blank" href="#" class="view-link">Preview</a>
+                    <a target="_blank" href="#" class="source-link">Source Code</a>
+                </div>
+            </div>
+            <div id="project-2" class="card">
                 <div class="card-img">
-                    <img id="demo-img" src="img/my-github.png" alt="">
+                    <img class="demo-img" src="img/my-github.png" alt="">
+                </div>
+
+                <div class="card-info">
+                    <div class="stack-responsivness">
+                        <h3>HTML CSS</h3>
+                        <div class="responsivness">
+                            <h6>RESPONSIVE</h6>
+                        </div>
+                    </div>
+
+                    <h2 class="project-title">Simple Landing Page</h2>
+
+                    <a target="_blank" href="#" class="view-link">Preview</a>
+                    <a target="_blank" href="#" class="source-link">Source Code</a>
+                </div>
+            </div>
+
+
+            <div id="project-3" class="card">
+                <div class="card-img">
+                    <img class="demo-img" src="img/my-github.png" alt="">
+                </div>
+
+                <div class="card-info">
+                    <div class="stack-responsivness">
+                        <h3>HTML CSS</h3>
+                        <div class="responsivness">
+                            <h6>RESPONSIVE</h6>
+                        </div>
+                    </div>
+
+                    <h2 class="project-title">Simple Landing Page</h2>
+
+                    <a target="_blank" href="#" class="view-link">Preview</a>
+                    <a target="_blank" href="#" class="source-link">Source Code</a>
+                </div>
+            </div>
+            <div id="project-3" class="card">
+                <div class="card-img">
+                    <img class="demo-img" src="img/my-github.png" alt="">
                 </div>
 
                 <div class="card-info">
@@ -50,5 +110,10 @@
         </div>
     </div>
     
+    <footer class="copyright">
+        <p>&copy; 2020 Ali Adam </p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
