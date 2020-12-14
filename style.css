@@ -179,16 +179,17 @@ ul{
 @media screen and (max-width: 660px){
     .theme-nav{
         flex-direction: column;
-
+        margin: 2rem 0 1rem 0;
     }
 
     .title{
         margin: 20px;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 380px){
     .theme-nav{
         text-align: center;
+        margin: 2rem 0 1rem 0;
 
     }
 
