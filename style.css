@@ -199,7 +199,15 @@ ul{
         text-transform: uppercase;
     }
 
-    .menu{
-       display: none;
+    .page-link{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 2px 8px;
+        background-color: #F77F00;
+        color: #F1FAEE;
+        letter-spacing: 2px;
     }
+    
 }
