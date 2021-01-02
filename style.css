@@ -1,4 +1,5 @@
 
+
 *{
     padding: 0;
     margin: 0;
@@ -93,6 +94,10 @@ ul{
     row-gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+
+
+
+
 .demo-img{
     display: block;
     width: 100%;
